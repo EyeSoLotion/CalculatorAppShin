@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">CalculatorAppShin</string>
+    <string name="input_name">Input</string>
+    <string name="answer_name">Answer</string>
 </resources>
