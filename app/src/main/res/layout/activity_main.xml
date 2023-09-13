@@ -19,7 +19,7 @@
         android:enabled="false"
         android:gravity="right"
         android:hint="@string/input_name1"
-        android:inputType="number"
+        android:inputType="text"
         android:textColor="@color/md_theme_light_background"
         android:textColorHint="@color/md_theme_light_outline"
         android:textSize="30sp"
@@ -37,7 +37,7 @@
         android:enabled="false"
         android:gravity="right"
         android:hint="@string/input_name2"
-        android:inputType="number"
+        android:inputType="text"
         android:textColor="@color/md_theme_light_background"
         android:textColorHint="@color/md_theme_light_outline"
         android:textSize="30sp"
@@ -45,7 +45,8 @@
         app:layout_constraintEnd_toEndOf="parent" />
 
     <Button
-        android:id="@+id/ButtonZero"
+        android:onClick="enterZero"
+        android:id="@+id/buttonZero"
         android:layout_width="101dp"
         android:layout_height="63dp"
         android:layout_marginTop="500dp"
@@ -125,6 +126,7 @@
 
     <Button
         android:id="@+id/buttonSeven"
+        android:onClick="enterSeven"
         android:layout_width="101dp"
         android:layout_height="96dp"
         android:layout_marginTop="176dp"
@@ -140,6 +142,7 @@
 
     <Button
         android:id="@+id/buttonEight"
+        android:onClick="enterEight"
         android:layout_width="101dp"
         android:layout_height="96dp"
         android:layout_marginTop="176dp"
@@ -154,6 +157,7 @@
         app:layout_constraintTop_toBottomOf="@+id/inputText2" />
 
     <Button
+        android:onClick="enterNine"
         android:id="@+id/buttonNine"
         android:layout_width="101dp"
         android:layout_height="96dp"
@@ -169,6 +173,7 @@
         app:layout_constraintTop_toBottomOf="@+id/inputText2" />
 
     <Button
+        android:onClick="enterSix"
         android:id="@+id/buttonSix"
         android:layout_width="101dp"
         android:layout_height="96dp"
@@ -184,6 +189,7 @@
         app:layout_constraintTop_toBottomOf="@+id/inputText2" />
 
     <Button
+        android:onClick="enterFive"
         android:id="@+id/buttonFive"
         android:layout_width="101dp"
         android:layout_height="96dp"
@@ -199,6 +205,7 @@
         app:layout_constraintTop_toBottomOf="@+id/inputText2" />
 
     <Button
+        android:onClick="enterFour"
         android:id="@+id/buttonFour"
         android:layout_width="101dp"
         android:layout_height="96dp"
@@ -230,6 +237,7 @@
         app:layout_constraintTop_toBottomOf="@+id/inputText2" />
 
     <Button
+        android:onClick="enterTwo"
         android:id="@+id/buttonTwo"
         android:layout_width="101dp"
         android:layout_height="96dp"
@@ -245,6 +253,7 @@
         app:layout_constraintTop_toBottomOf="@+id/inputText2" />
 
     <Button
+        android:onClick="enterThree"
         android:id="@+id/buttonThree"
         android:layout_width="101dp"
         android:layout_height="96dp"
@@ -276,6 +285,7 @@
         app:layout_constraintTop_toBottomOf="@+id/inputText2" />
 
     <Button
+        android:onClick="addPoint"
         android:id="@+id/pointButton"
         android:layout_width="101dp"
         android:layout_height="63dp"
